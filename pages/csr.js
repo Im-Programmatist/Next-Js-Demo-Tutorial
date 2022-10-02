@@ -2,6 +2,8 @@
 
 import {useState, useEffect} from 'react';
 
+//to use dummy data used - mockapi.io portal
+//https://mockapi.io/projects/6339963c66857f698fb87fa3
 
 export default function clientSideRendered(){
     const [state, setState] = useState([]);
