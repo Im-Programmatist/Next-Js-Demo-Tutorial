@@ -4,7 +4,6 @@
 export default function serverSideRendered({state}){
     return(
         <>
-            {console.log(state)}
             <p>Hello This is Static Serve Generation Rendering</p>
             {
                 state.map((e)=>{

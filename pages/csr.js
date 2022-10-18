@@ -26,7 +26,6 @@ export default function clientSideRendered(){
 
     return(
         <>
-        {console.log(state)}
         <p>Hello This is client side rendering</p>
             {
                 state.map((e)=>{

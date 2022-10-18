@@ -3,7 +3,6 @@
 export default function serverSideRendered({state}){
     return(
         <>
-            {console.log(state)}
             <p>Hello This is Server Side Rendering</p>
             {
                 state.map((e)=>{
